@@ -1,4 +1,4 @@
-"use client"
+import CallButton from "@/components/cta/CallButton"
 
 export default function FloatingCTA() {
   const phoneNumber = "01046837119"
@@ -25,12 +25,11 @@ export default function FloatingCTA() {
         💬 카톡 상담
       </a>
 
-      <button
-        onClick={handleCall}
+      <CallButton 
         className="rounded-full bg-red-600 px-5 py-3 font-semibold text-white shadow-lg transition hover:bg-red-700"
       >
         📞 전화 상담
-      </button>
+      </CallButton>
     </div>
   )
 }

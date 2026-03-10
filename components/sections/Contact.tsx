@@ -1,4 +1,4 @@
-"use client"
+import CallButton from "@/components/cta/CallButton"
 
 import Image from "next/image"
 import { Phone, MessageCircle, Mail, MapPin } from "lucide-react"
@@ -52,13 +52,12 @@ export default function Contact() {
                 카톡 상담
               </a>
 
-              <button
-                onClick={handleCall}
+              <CallButton
                 className="inline-flex items-center justify-center gap-2 rounded-md bg-red-600 px-6 py-3 font-semibold text-white transition hover:bg-red-700"
               >
                 <Phone size={18} />
                 전화 상담
-              </button>
+              </CallButton>
 
             </div>
           </div>

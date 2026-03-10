@@ -1,17 +1,4 @@
-"use client"
-
-const phoneNumber = "01046837119"
-
-const handleCall = () => {
-  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
-
-  if (isMobile) {
-    window.location.href = `tel:${phoneNumber}`
-  } else {
-    navigator.clipboard.writeText(phoneNumber)
-    alert("전화번호가 복사되었습니다.\n010-4683-7119")
-  }
-}
+import CallButton from "@/components/cta/CallButton"
 
 export default function Hero() {
   return (
@@ -37,12 +24,11 @@ export default function Hero() {
             무료 상담 문의
           </a>
 
-          <button
-            onClick={handleCall}
+          <CallButton
             className="rounded-md bg-red-600 px-6 py-3 text-center font-semibold hover:bg-red-700"
           >
             전화 상담
-          </button>
+          </CallButton>
         </div>
       </div>
     </section>

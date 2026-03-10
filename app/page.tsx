@@ -1,6 +1,6 @@
 import Header from "@/components/layout/Header"
-import FloatingCTA from "@/components/layout/FloatingCTA"
-import MobileCTA from "@/components/layout/MobileCTA"
+import FloatingCTA from "@/components/cta/FloatingCTA"
+import MobileCTA from "@/components/cta/MobileCTA"
 import Footer from "@/components/layout/Footer"
 
 import Hero from "@/components/sections/Hero"

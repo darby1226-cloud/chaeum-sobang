@@ -1,4 +1,5 @@
 import Image from "next/image"
+import CallButton from "@/components/cta/CallButton"
 
 const works = [
   {
@@ -98,12 +99,11 @@ export default function WorkGallery() {
               카톡 상담
             </a>
 
-            <a
-              href="tel:01046837119"
+            <CallButton
               className="rounded-md bg-red-600 px-6 py-3 font-semibold text-white transition hover:bg-red-700"
             >
               전화 상담
-            </a>
+            </CallButton>
           </div>
 
           <a
