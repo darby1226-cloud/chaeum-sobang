@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     canonical: "https://www.chaeum119.co.kr",
   },
   verification: {
+    google: "nzYyGxEG4P2D4viX1TAR6Lf6U47bngRycOYodf4WzlI",
     other: {
       "naver-site-verification": "0b5d8c1581790c7a7a37acd294987f899259b1b5",
     },
