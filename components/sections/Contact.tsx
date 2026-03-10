@@ -1,5 +1,20 @@
+"use client"
+
 import Image from "next/image"
 import { Phone, MessageCircle, Mail, MapPin } from "lucide-react"
+
+const phoneNumber = "01046837119"
+
+const handleCall = () => {
+  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
+
+  if (isMobile) {
+    window.location.href = `tel:${phoneNumber}`
+  } else {
+    navigator.clipboard.writeText(phoneNumber)
+    alert("전화번호가 복사되었습니다.\n010-4683-7119")
+  }
+}
 
 export default function Contact() {
   return (
@@ -37,13 +52,13 @@ export default function Contact() {
                 카톡 상담
               </a>
 
-              <a
-                href="tel:01046837119"
+              <button
+                onClick={handleCall}
                 className="inline-flex items-center justify-center gap-2 rounded-md bg-red-600 px-6 py-3 font-semibold text-white transition hover:bg-red-700"
               >
                 <Phone size={18} />
                 전화 상담
-              </a>
+              </button>
 
             </div>
           </div>
