@@ -1,3 +1,18 @@
+"use client"
+
+const phoneNumber = "01046837119"
+
+const handleCall = () => {
+  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
+
+  if (isMobile) {
+    window.location.href = `tel:${phoneNumber}`
+  } else {
+    navigator.clipboard.writeText(phoneNumber)
+    alert("전화번호가 복사되었습니다.\n010-4683-7119")
+  }
+}
+
 export default function Hero() {
   return (
     <section className="bg-blue-900 pb-24 text-white">
@@ -22,12 +37,12 @@ export default function Hero() {
             무료 상담 문의
           </a>
 
-          <a
-            href="tel:01046837119"
+          <button
+            onClick={handleCall}
             className="rounded-md bg-red-600 px-6 py-3 text-center font-semibold hover:bg-red-700"
           >
             전화 상담
-          </a>
+          </button>
         </div>
       </div>
     </section>
