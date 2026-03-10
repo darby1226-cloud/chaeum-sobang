@@ -36,7 +36,7 @@ export default function CallButton({
 
   return (
     <button onClick={handleCall} className={className}>
-      {children ?? "전화 상담"}
+      {children ?? "전화 문의"}
     </button>
   )
 }

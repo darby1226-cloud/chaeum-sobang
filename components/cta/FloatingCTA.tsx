@@ -22,13 +22,13 @@ export default function FloatingCTA() {
         rel="noreferrer"
         className="rounded-full border border-blue-900 bg-white px-5 py-3 font-semibold text-blue-900 shadow-lg transition hover:bg-blue-900 hover:text-white"
       >
-        💬 카톡 상담
+        💬 카톡 문의
       </a>
 
       <CallButton 
         className="rounded-full bg-red-600 px-5 py-3 font-semibold text-white shadow-lg transition hover:bg-red-700"
       >
-        📞 전화 상담
+        📞 전화 문의
       </CallButton>
     </div>
   )

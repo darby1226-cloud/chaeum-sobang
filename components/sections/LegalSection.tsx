@@ -33,13 +33,13 @@ export default function LegalSection() {
               rel="noreferrer"
               className="rounded-md border border-blue-900 px-6 py-3 font-semibold text-blue-900 transition hover:bg-blue-900 hover:text-white"
             >
-              카톡 상담 문의
+              카톡 문의
             </a>
   
             <CallButton
               className="rounded-md bg-red-600 px-6 py-3 font-semibold text-white transition hover:bg-red-700"
             >
-              전화 상담
+              전화 문의
             </CallButton>
           </div>
         </div>

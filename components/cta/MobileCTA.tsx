@@ -16,7 +16,7 @@ export default function MobileCTA() {
         <CallButton
           className="bg-red-600 py-4 text-center font-semibold text-white"
         >
-          전화 상담
+          전화 문의
         </CallButton>
       </div>
     </div>

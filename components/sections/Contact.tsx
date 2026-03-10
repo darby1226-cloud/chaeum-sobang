@@ -49,14 +49,14 @@ export default function Contact() {
                 className="inline-flex items-center justify-center gap-2 rounded-md border border-blue-900 px-6 py-3 font-semibold text-blue-900 transition hover:bg-blue-900 hover:text-white"
               >
                 <MessageCircle size={18} />
-                카톡 상담
+                카톡 문의
               </a>
 
               <CallButton
                 className="inline-flex items-center justify-center gap-2 rounded-md bg-red-600 px-6 py-3 font-semibold text-white transition hover:bg-red-700"
               >
                 <Phone size={18} />
-                전화 상담
+                전화 문의
               </CallButton>
 
             </div>
