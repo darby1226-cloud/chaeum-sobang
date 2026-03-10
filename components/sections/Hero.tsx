@@ -21,7 +21,7 @@ export default function Hero() {
             href="#contact"
             className="rounded-md border border-white px-6 py-3 text-center font-semibold hover:bg-white hover:text-blue-900"
           >
-            무료 상담 문의
+            무료 상담
           </a>
 
           <CallButton

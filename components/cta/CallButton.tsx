@@ -36,7 +36,6 @@ export default function CallButton({
 
   return (
     <button onClick={handleCall} className={className}>
-      {showIcon && <Phone size={18} />}
       {children ?? "전화 상담"}
     </button>
   )
