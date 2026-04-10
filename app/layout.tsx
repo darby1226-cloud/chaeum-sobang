@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "nzYyGxEG4P2D4viX1TAR6Lf6U47bngRycOYodf4WzlI",
-    other: {
-      "naver-site-verification" content="01f08b4fb35e8b6f0213258379dc937e3f71afa5",
+other: {
+      "naver-site-verification": "01f08b4fb35e8b6f0213258379dc937e3f71afa5",
     },
   },
 }
